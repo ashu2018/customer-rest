@@ -1,0 +1,25 @@
+{
+  "configs": [
+    "customer-contact.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "customer-rest",
+  "minMuleVersion": "4.1.2",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "api\\.designer.json",
+        "api\\.gitignore",
+        "api\\customer-contact.raml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
