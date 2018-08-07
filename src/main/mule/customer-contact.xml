@@ -14,6 +14,7 @@
                 <http:headers>#[vars.outboundHeaders default {}]</http:headers>
             </http:error-response>
         </http:listener>
+		<logger level="INFO" doc:name="Logger" doc:id="300327ff-82de-41b7-a1dd-c371d14d17ee" message="Contact API started.."/>
         <apikit:router config-ref="customer-contact-config" />
         <error-handler>
             <on-error-propagate type="APIKIT:BAD_REQUEST">
