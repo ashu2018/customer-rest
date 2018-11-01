@@ -149,10 +149,10 @@ output application/json
   firstName: "John",
   lastName: "Doe",
   postalAddress: {
-    street: "44 Shirley Ave.",
-    city: "West Chicago",
-    postalCode: "60185",
-    state: "IL",
+    street: "400 East Tasman.",
+    city: "San jose",
+    postalCode: "95134",
+    state: "CA",
     country: "USA"
   },
   phone: "+1-202-555-0180",
